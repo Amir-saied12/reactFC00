@@ -1,0 +1,152 @@
+@font-face {
+    font-family: Syne;
+    src: url(./font/Syne-VariableFont_wght.ttf);
+}
+header{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999999;
+}
+.icon i{
+    font-size: 20px;
+    cursor: pointer;
+}
+.List li a{
+    color: black;
+    font-family: Syne, Sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.List li{
+    padding: 0px 20px 0px 20px;
+}
+nav:first-child{
+    border: 1px solid #000;
+}
+.sale{
+    background-color: yellow;
+}
+.fix{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999999;
+    background-color: white;
+}
+.winfix{
+    display: none;
+    background-color: white;
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 9999999999;
+    input{
+        margin: 70px 0 0 0;
+        padding: 1em;
+        height: 3.5em;
+        line-height: 3.5em;
+        border: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        background: none;
+        font-size: 1.5rem !important;
+        font-weight: 500;
+        padding-left: 0 !important;
+        border-bottom: 1px solid black;
+        width: 72%;
+        &:focus{
+            outline: none;
+        }
+    }
+    span{
+        position: absolute;
+        top: 45px;
+        right: 45px;
+        width: auto;
+        i{
+            background-color: transparent;
+            font-size: 24px;
+            border: 1.5px solid #0000007a;
+            border-radius: 50%;
+            text-align: center;
+            color: #0000007a;
+            padding: 14px 18px;
+            transition: all .4s;
+            &:hover{
+                color: black;
+                border: 1.5px solid black;
+                cursor: pointer;
+                transform: rotateZ(101deg);
+            }
+        }
+    }
+}
+.account{
+    background-color: #00000085;
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 999999999999;
+    .login{
+        background-color: white;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        height: 100vh;
+        width: 450px;
+    }
+    .inb_login{
+        border-radius: 0;
+        border: 1px solid #00000038;
+        padding: 12px 15px;
+    }
+    input[type=checkbox]{
+        width: 20px;
+    }
+    input[type=submit]{
+        background-color: #000;
+        color: white;
+        border: 1px solid black;
+        padding: 10px;
+        font-size: 16px;
+        text-transform: capitalize;
+    }
+    a{
+        color: #000000c8;
+    }
+    p a{
+        color: #000000d2;
+    }
+}
+.count{
+    border-radius: 50%;
+}
+.pointer{
+    cursor: pointer;
+}
+@media (max-width:1157px) {
+    .List li a {
+        color: black;
+        font-family: Syne, Sans-serif;
+        font-size: 10px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+}
+@media (max-width:800px) {
+    .account .login {
+        width: 270px;
+    }
+}
+@media (max-width:529px) {
+    .account .login {
+        width: 200px;
+    }
+}

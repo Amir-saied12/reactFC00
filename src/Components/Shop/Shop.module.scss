@@ -1,0 +1,154 @@
+img{
+    width: 100%;
+    display: block;
+}
+ul{
+    list-style: none;
+}
+.topSec{
+    margin: 20px 0;    
+    h2{
+        font-size: 101px !important;
+        color: black !important;
+    }
+}
+.colCard{
+    img{
+        width: 170px;
+        height: 170px;
+    }
+    .card_body{
+        width: auto;
+        a{
+            text-decoration: none;
+            color: #000000;
+        }
+        a span{
+            font-size: 0.6875rem;
+            color: inherit;
+            text-transform: uppercase;
+        }
+        p a{
+            font-size: 14px;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        .price{
+            background-color: #FFE802;
+            padding: 5px 5px 5px 5px;
+            color: #000000;
+            display: inline;
+        }
+    }
+}
+.add{
+    button{
+        background: black;
+        color: white;
+        width: 165px;
+        border: none;
+        height: 45px;
+        position: absolute;
+        bottom: 13px;
+        right: 88px;
+        left: auto;
+    }
+    i{
+        background: black;
+        color: white;
+        border: none;
+        padding: 14.5px;
+        position: absolute;
+        bottom: 13px;
+        right: 46px;
+        left: auto;
+    }
+}
+.color{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    &:nth-child(1){
+        &::after{
+            content: "";
+            width: 15px;
+            height: 15px;
+            background-color: #000000;
+            border-radius: 50%;
+        }
+    }
+    &:nth-child(2){
+        &::after{
+            content: "";
+            width: 15px;
+            height: 15px;
+            background-color: red;
+            border-radius: 50%;
+        }
+    }
+    &:nth-child(3){
+        &::after{
+            content: "";
+            width: 15px;
+            height: 15px;
+            background-color: blue;
+            border-radius: 50%;
+        }
+    }
+    &:nth-child(4){
+        &::after{
+            content: "";
+            width: 15px;
+            height: 15px;
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 50%;
+        }
+    }
+    &:nth-child(5){
+        &::after{
+            content: "";
+            width: 15px;
+            height: 15px;
+            background-color: green;
+            border-radius: 50%;
+        }
+    }
+    &:nth-child(6){
+        &::after{
+            content: "";
+            width: 15px;
+            height: 15px;
+            background-color: yellow;
+            border-radius: 50%;
+        }
+    }
+}
+.list_none{
+    list-style: none;
+}
+.cards2{
+    span{
+        font-size: 14px;
+        margin-bottom: 2px;
+        font-weight: 500;
+    }
+    p{
+        background-color: yellow;
+        display: inline-block;
+        padding: 3px;
+    }
+    .Contact .topSec h2 {
+        font-size: 40px !important;
+    }
+}
+@media (max-width:430px) {
+    .add button {
+        width: 150px;
+        height: 40px;
+        position: absolute;
+        bottom: -37px;
+        right: 125px;
+        left: auto;
+    }
+}

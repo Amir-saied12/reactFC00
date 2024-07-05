@@ -1,0 +1,53 @@
+h2{
+    color: #FFFFFF !important;
+    font-size: 20px !important;
+    text-transform: uppercase;
+}
+li{
+    font-size: 16px;
+    text-align: start;
+    color: #D5D5D5;
+    transition: color 0.3s;
+    padding-bottom: calc(16px / 2);
+}
+ul{
+    padding: 0px !important;
+}
+.first{
+    p{
+        color: #FFFFFF;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    img{
+        width: 180px;
+    }
+}
+.second{
+    li{
+        transition: all .5s;
+        &:hover{
+            color: white;
+        }
+    }
+}
+.three{
+    li{
+        border-bottom: 1px solid #d5d5d547;
+        padding: 15px;
+    }
+}
+.four{
+    input{
+        padding: 11px 35px;
+        border: 1px solid white;
+        background: transparent;
+        color: white;
+    }
+    button{
+        background-color: yellow;
+        border: none;
+        padding: 11px 20px;
+        margin: 10px 0;
+    }
+}
